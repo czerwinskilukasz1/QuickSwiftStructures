@@ -49,7 +49,7 @@ public class QuickQueue<T> {
         if isEmpty() {
             return nil
         }
-        
+        --_count
         let ret = front
         front = front.next
         return ret.key

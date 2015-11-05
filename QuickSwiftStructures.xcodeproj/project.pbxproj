@@ -12,6 +12,7 @@
 		B69F65631BEC20F30036485D /* QuickSwiftStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65621BEC20F30036485D /* QuickSwiftStructuresTests.swift */; };
 		B69F656E1BEC213A0036485D /* QuickNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656D1BEC213A0036485D /* QuickNode.swift */; settings = {ASSET_TAGS = (); }; };
 		B69F65701BEC21720036485D /* QuickQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656F1BEC21720036485D /* QuickQueue.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F65721BEC223A0036485D /* QuickQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65711BEC223A0036485D /* QuickQueueTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		B69F65641BEC20F30036485D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B69F656D1BEC213A0036485D /* QuickNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNode.swift; sourceTree = "<group>"; };
 		B69F656F1BEC21720036485D /* QuickQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickQueue.swift; path = ../QuickQueue.swift; sourceTree = "<group>"; };
+		B69F65711BEC223A0036485D /* QuickQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickQueueTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				B69F65621BEC20F30036485D /* QuickSwiftStructuresTests.swift */,
 				B69F65641BEC20F30036485D /* Info.plist */,
+				B69F65711BEC223A0036485D /* QuickQueueTests.swift */,
 			);
 			path = QuickSwiftStructuresTests;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69F65631BEC20F30036485D /* QuickSwiftStructuresTests.swift in Sources */,
+				B69F65721BEC223A0036485D /* QuickQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
