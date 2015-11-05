@@ -10,6 +10,8 @@
 		B69F65571BEC20F30036485D /* QuickSwiftStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = B69F65561BEC20F30036485D /* QuickSwiftStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B69F655E1BEC20F30036485D /* QuickSwiftStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69F65531BEC20F30036485D /* QuickSwiftStructures.framework */; settings = {ASSET_TAGS = (); }; };
 		B69F65631BEC20F30036485D /* QuickSwiftStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65621BEC20F30036485D /* QuickSwiftStructuresTests.swift */; };
+		B69F656E1BEC213A0036485D /* QuickNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656D1BEC213A0036485D /* QuickNode.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F65701BEC21720036485D /* QuickQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656F1BEC21720036485D /* QuickQueue.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		B69F655D1BEC20F30036485D /* QuickSwiftStructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickSwiftStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69F65621BEC20F30036485D /* QuickSwiftStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSwiftStructuresTests.swift; sourceTree = "<group>"; };
 		B69F65641BEC20F30036485D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69F656D1BEC213A0036485D /* QuickNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNode.swift; sourceTree = "<group>"; };
+		B69F656F1BEC21720036485D /* QuickQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickQueue.swift; path = ../QuickQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				B69F65561BEC20F30036485D /* QuickSwiftStructures.h */,
 				B69F65581BEC20F30036485D /* Info.plist */,
+				B69F656F1BEC21720036485D /* QuickQueue.swift */,
+				B69F656D1BEC213A0036485D /* QuickNode.swift */,
 			);
 			path = QuickSwiftStructures;
 			sourceTree = "<group>";
@@ -142,6 +148,7 @@
 		B69F654A1BEC20F30036485D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Lukasz Czerwinski";
 				TargetAttributes = {
@@ -193,6 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69F656E1BEC213A0036485D /* QuickNode.swift in Sources */,
+				B69F65701BEC21720036485D /* QuickQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +316,7 @@
 		B69F65681BEC20F30036485D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -317,12 +327,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LukaszCzerwinski.QuickSwiftStructures;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B69F65691BEC20F30036485D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -375,6 +387,7 @@
 				B69F65691BEC20F30036485D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B69F656A1BEC20F30036485D /* Build configuration list for PBXNativeTarget "QuickSwiftStructuresTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +396,7 @@
 				B69F656C1BEC20F30036485D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
