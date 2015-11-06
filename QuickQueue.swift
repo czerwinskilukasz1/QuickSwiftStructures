@@ -13,10 +13,10 @@ public class QuickQueue<T> {
     private var front: QuickNode<T>!
     private var back: QuickNode<T>!
     
-    private var _count = 0
+    private var _count: UInt32 = 0
     
     // Item count getter.
-    var count: Int {
+    var count: UInt32 {
         return _count
     }
     

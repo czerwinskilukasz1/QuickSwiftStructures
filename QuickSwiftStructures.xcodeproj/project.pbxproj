@@ -14,6 +14,11 @@
 		B69F65701BEC21720036485D /* QuickQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656F1BEC21720036485D /* QuickQueue.swift */; settings = {ASSET_TAGS = (); }; };
 		B69F65721BEC223A0036485D /* QuickQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65711BEC223A0036485D /* QuickQueueTests.swift */; settings = {ASSET_TAGS = (); }; };
 		B69F65741BEC25630036485D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B69F65731BEC25630036485D /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		B69F65881BEC309F0036485D /* QuickBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65871BEC309F0036485D /* QuickBuffer.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F65891BEC309F0036485D /* QuickBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65871BEC309F0036485D /* QuickBuffer.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F658D1BEC30E20036485D /* QuickBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F658B1BEC30E20036485D /* QuickBufferTests.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F658E1BEC35AB0036485D /* QuickQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656F1BEC21720036485D /* QuickQueue.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F658F1BEC35BC0036485D /* QuickNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656D1BEC213A0036485D /* QuickNode.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 		B69F656F1BEC21720036485D /* QuickQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickQueue.swift; path = ../QuickQueue.swift; sourceTree = "<group>"; };
 		B69F65711BEC223A0036485D /* QuickQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickQueueTests.swift; sourceTree = "<group>"; };
 		B69F65731BEC25630036485D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B69F65871BEC309F0036485D /* QuickBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickBuffer.swift; path = AdvancedQuickSwiftStructures/QuickBuffer.swift; sourceTree = "<group>"; };
+		B69F658B1BEC30E20036485D /* QuickBufferTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickBufferTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +70,9 @@
 			children = (
 				B69F65731BEC25630036485D /* LICENSE */,
 				B69F65551BEC20F30036485D /* QuickSwiftStructures */,
+				B69F65831BEC305C0036485D /* AdvancedQuickSwiftStructures */,
 				B69F65611BEC20F30036485D /* QuickSwiftStructuresTests */,
+				B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructures */,
 				B69F65541BEC20F30036485D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +105,22 @@
 				B69F65711BEC223A0036485D /* QuickQueueTests.swift */,
 			);
 			path = QuickSwiftStructuresTests;
+			sourceTree = "<group>";
+		};
+		B69F65831BEC305C0036485D /* AdvancedQuickSwiftStructures */ = {
+			isa = PBXGroup;
+			children = (
+				B69F65871BEC309F0036485D /* QuickBuffer.swift */,
+			);
+			name = AdvancedQuickSwiftStructures;
+			sourceTree = "<group>";
+		};
+		B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructures */ = {
+			isa = PBXGroup;
+			children = (
+				B69F658B1BEC30E20036485D /* QuickBufferTests.swift */,
+			);
+			name = AdvancedQuickSwiftStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69F656E1BEC213A0036485D /* QuickNode.swift in Sources */,
+				B69F65881BEC309F0036485D /* QuickBuffer.swift in Sources */,
 				B69F65701BEC21720036485D /* QuickQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +243,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69F65631BEC20F30036485D /* QuickSwiftStructuresTests.swift in Sources */,
+				B69F658F1BEC35BC0036485D /* QuickNode.swift in Sources */,
+				B69F65891BEC309F0036485D /* QuickBuffer.swift in Sources */,
 				B69F65721BEC223A0036485D /* QuickQueueTests.swift in Sources */,
+				B69F658E1BEC35AB0036485D /* QuickQueue.swift in Sources */,
+				B69F658D1BEC30E20036485D /* QuickBufferTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
