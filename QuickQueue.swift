@@ -4,7 +4,7 @@
 //
 //  Created by Lukasz Czerwinski on 11/5/15.
 //  Copyright © 2015 Lukasz Czerwinski <czerwinskilukasz1@gmail.com>. All rights reserved.
-//
+//  Distributed under MIT License
 
 import Foundation
 

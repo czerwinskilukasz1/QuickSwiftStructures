@@ -13,6 +13,7 @@
 		B69F656E1BEC213A0036485D /* QuickNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656D1BEC213A0036485D /* QuickNode.swift */; settings = {ASSET_TAGS = (); }; };
 		B69F65701BEC21720036485D /* QuickQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F656F1BEC21720036485D /* QuickQueue.swift */; settings = {ASSET_TAGS = (); }; };
 		B69F65721BEC223A0036485D /* QuickQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69F65711BEC223A0036485D /* QuickQueueTests.swift */; settings = {ASSET_TAGS = (); }; };
+		B69F65741BEC25630036485D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B69F65731BEC25630036485D /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		B69F656D1BEC213A0036485D /* QuickNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNode.swift; sourceTree = "<group>"; };
 		B69F656F1BEC21720036485D /* QuickQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickQueue.swift; path = ../QuickQueue.swift; sourceTree = "<group>"; };
 		B69F65711BEC223A0036485D /* QuickQueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickQueueTests.swift; sourceTree = "<group>"; };
+		B69F65731BEC25630036485D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B69F65491BEC20F30036485D = {
 			isa = PBXGroup;
 			children = (
+				B69F65731BEC25630036485D /* LICENSE */,
 				B69F65551BEC20F30036485D /* QuickSwiftStructures */,
 				B69F65611BEC20F30036485D /* QuickSwiftStructuresTests */,
 				B69F65541BEC20F30036485D /* Products */,
@@ -193,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B69F65741BEC25630036485D /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
