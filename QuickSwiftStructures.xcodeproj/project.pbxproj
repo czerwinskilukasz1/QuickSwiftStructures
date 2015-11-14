@@ -70,9 +70,9 @@
 			children = (
 				B69F65731BEC25630036485D /* LICENSE */,
 				B69F65551BEC20F30036485D /* QuickSwiftStructures */,
-				B69F65831BEC305C0036485D /* AdvancedQuickSwiftStructures */,
 				B69F65611BEC20F30036485D /* QuickSwiftStructuresTests */,
-				B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructures */,
+				B69F65831BEC305C0036485D /* AdvancedQuickSwiftStructures */,
+				B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructuresTests */,
 				B69F65541BEC20F30036485D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 				B69F65711BEC223A0036485D /* QuickQueueTests.swift */,
 			);
 			path = QuickSwiftStructuresTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		B69F65831BEC305C0036485D /* AdvancedQuickSwiftStructures */ = {
 			isa = PBXGroup;
@@ -115,12 +115,12 @@
 			name = AdvancedQuickSwiftStructures;
 			sourceTree = "<group>";
 		};
-		B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructures */ = {
+		B69F658A1BEC30C40036485D /* AdvancedQuickSwiftStructuresTests */ = {
 			isa = PBXGroup;
 			children = (
 				B69F658B1BEC30E20036485D /* QuickBufferTests.swift */,
 			);
-			name = AdvancedQuickSwiftStructures;
+			name = AdvancedQuickSwiftStructuresTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

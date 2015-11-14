@@ -83,4 +83,32 @@ class QuickQueueTests: XCTestCase {
         XCTAssertEqual(2, q.popFront())
         XCTAssertEqual(nil, q.popFront())
     }
+    
+    func testPushPop() {
+        let q = QuickQueue<Int>()
+        q.pushBack(8)
+        var e = q.popFront()
+        XCTAssertNotNil(e)
+        q.pushBack(7)
+        e = q.popFront()
+        XCTAssertNotNil(e)
+    }
+    
+    func testRemoveAll() {
+        let q = QuickQueue<Int>()
+        q.pushBack(1)
+        q.pushBack(2)
+        q.pushBack(3)
+        q.pushBack(4)
+        q.pushBack(5)
+        q.removeAll()
+        XCTAssertNil(q.top())
+        XCTAssertEqual(0, q.count)
+        q.pushBack(3)
+        XCTAssertNotNil(q.top())
+        XCTAssertEqual(1, q.count)
+        q.pushBack(6)
+        XCTAssertNotNil(q.top())
+        XCTAssertEqual(2, q.count)
+    }
 }

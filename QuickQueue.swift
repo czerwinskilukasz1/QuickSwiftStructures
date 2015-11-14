@@ -52,13 +52,25 @@ public class QuickQueue<T> {
         --_count
         let ret = front
         front = front.next
+        if front == nil {
+            back = nil
+        }
         return ret.key
     }
-    
     
     // Check whether the queue is empty.
     // Constant time (O(1)).
     func isEmpty() -> Bool {
         return front == nil
+    }
+    
+    // Remove all elements from the queue.
+    // Constant time (O(1)).
+    // Note: At some point in the future Swift garbage collector will need up to O(n) to deallocate 
+    // unused nodes.
+    func removeAll() {
+        front = nil
+        back = nil
+        _count = 0
     }
 }
